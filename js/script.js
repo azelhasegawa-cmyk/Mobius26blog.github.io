@@ -26,7 +26,7 @@ function loadPage(page) {
             <h1 style="color: #00d4ff; letter-spacing: 5px;">MOBIUS 2026</h1>
             <img src="images/MOBIUS.jpg" alt="Mobius Group" class="anatomy-img" style="max-width: 100%; border-radius: 12px; margin-bottom: 15px; border: 1px solid #00d4ff;">
             <p style="font-weight: 700; color: #00d4ff; font-size: 18px;">Grade 11-Mobius</p>
-            <p>Welcome to the digital literature portal. Access modules via the neural links above.</p>
+            <p>Welcome to the digital literature portal.</p>
         </div>`;
     }
 
@@ -37,8 +37,6 @@ function loadPage(page) {
             <div class="terms-grid">
                 ${createCard('The Web Log', 'Short for web log. An act of maintaining a regularly updated site run by an individual or group.')}
                 ${createCard('Nature', 'Written in an informal, conversational style like an online journal.')}
-                ${createCard('History', 'Evolved in 1999 by Peter Merholz, becoming a global phenomenon.')}
-                ${createCard('Educational Venue', 'A space for learners to reflect and communicate outside the classroom.')}
             </div>
         </div>`;
     }
@@ -72,7 +70,6 @@ function loadPage(page) {
             <div class="terms-grid">
                 ${createCard('Poetry Blog', 'Increases visibility and sparking interest online.')}
                 ${createCard('Vlog', 'Video-based blogging with supporting metadata.')}
-                ${createCard('Personal Blogs', 'Writers sharing daily life to influence readers.')}
             </div>
         </div>`;
     }
@@ -82,7 +79,7 @@ function loadPage(page) {
         <div class="page-card">
             <h1>Blogging Platforms</h1>
             <div class="terms-grid">
-                ${createCard('WordPress', 'Powers over 30% of websites. Best for full control.')}
+                ${createCard('WordPress', 'Powers over 30% of websites. Best for full control over the blog’s future.')}
                 ${createCard('Blogger', 'Free Google service; easy for students.')}
             </div>
         </div>`;
